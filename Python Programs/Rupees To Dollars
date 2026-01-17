@@ -1,6 +1,0 @@
-def dollars():
-    rupees = float(input("Enter amount in Rupees: "))
-    dollars = rupees / 48
-    print("Amount in Dollars =", dollars)
-
-dollars()
