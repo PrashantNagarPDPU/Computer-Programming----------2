@@ -1,0 +1,6 @@
+def minutes(hours):
+    min = hours * 60
+    print("Minutes =", min)
+
+h = int(input("Enter hours: "))
+minutes(h)
