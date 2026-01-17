@@ -1,0 +1,14 @@
+
+def net_salary(gross_salary):
+    allowance = 0.10 * gross_salary   
+    deduction = 0.03 * gross_salary   
+    
+    net_salary = gross_salary + allowance - deduction
+    
+    print("Gross Salary: {:.2f}".format(gross_salary))
+    print("Allowance (10%): {:.2f}".format(allowance))
+    print("Deduction (3%): {:.2f}".format(deduction))
+    print("Net Salary: {:.2f}".format(net_salary))
+
+gross_salary = float(input("Enter the gross salary: "))
+net_salary(gross_salary)

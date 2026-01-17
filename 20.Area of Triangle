@@ -1,0 +1,9 @@
+def area_of_triangle(L,H):
+    
+    area = 0.5 * L*H
+    print("Area of the triangle =", area)
+
+L = float(input("Enter the base of the triangle: "))
+H = float(input("Enter the height of the triangle: "))
+
+area_of_triangle(L,H)

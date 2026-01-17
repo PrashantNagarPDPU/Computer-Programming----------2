@@ -1,0 +1,14 @@
+def bytes():
+    
+    bytes_value = float(input("Enter the number of bytes: "))
+
+    kb = bytes_value / 1024
+    mb = bytes_value / (1024 * 1024)
+    gb = bytes_value / (1024 * 1024 * 1024)
+
+    print("Bytes in KB:", kb)
+    print("Bytes in MB:", mb)
+    print("Bytes in GB:", gb)
+
+
+bytes()

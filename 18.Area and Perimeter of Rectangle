@@ -1,0 +1,11 @@
+def rectangle(L,B):
+    area = L*B
+    perimeter = 2 * (L+B)
+
+    print("Area of the rectangle =", area)
+    print("Perimeter of the rectangle =", perimeter)
+
+L = float(input("Enter the length of the rectangle: "))
+B = float(input("Enter the width of the rectangle: "))
+
+rectangle(L,B)

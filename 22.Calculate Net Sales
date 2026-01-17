@@ -1,0 +1,11 @@
+def net_sales(gross_sales):
+    
+    discount = 0.10 * gross_sales   
+    net_sales = gross_sales - discount
+    print("Gross Sales: {:.2f}".format(gross_sales))
+    print("Discount (10%): {:.2f}".format(discount))
+    print("Net Sales: {:.2f}".format(net_sales))
+
+
+gross_sales = float(input("Enter the gross sales amount: "))
+net_sales(gross_sales)
