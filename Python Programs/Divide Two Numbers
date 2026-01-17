@@ -1,9 +1,0 @@
-def div_numbers(a, b):
-    
-        result = a / b
-        print("The division result is:", result)
-
-num1 = float(input("Enter the dividend: "))
-num2 = float(input("Enter the divisor: "))
-
-div_numbers(num1, num2)
